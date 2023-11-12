@@ -1,0 +1,16 @@
+mybatis-plus:
+  mapper-locations: classpath:mapper/**/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+spring:
+  profiles:
+    active: test
+  application:
+    name: ultrat
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+
+jwt:
+  secret: ${ultrat.jwt.secret}
