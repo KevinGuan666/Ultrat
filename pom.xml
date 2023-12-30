@@ -8,7 +8,11 @@
     <artifactId>ultrat</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>ultrat-common</module>
+        <module>ultrat-server</module>
+        <module>ultrat-kit</module>
+        <module>ultrat-kit/ultrat-redis</module>
+        <module>ultrat-kit/ultrat-frequency-control</module>
+        <module>ultrat-kit/ultrat-common-starter</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -28,11 +32,17 @@
         <lombok.version>1.18.10</lombok.version>
         <jjwt.version>0.9.1</jjwt.version>
         <hutool.version>5.8.18</hutool.version>
-
+        <netty-all.version>4.1.76.Final</netty-all.version>
+        <hutool.version>5.8.18</hutool.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.yihang.ultrat</groupId>
+                <artifactId>ultrat-common-starter</artifactId>
+                <version>${version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-boot-starter</artifactId>
@@ -69,6 +79,16 @@
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-generator</artifactId>
                 <version>${mybatis-plus-generator.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${netty-all.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
