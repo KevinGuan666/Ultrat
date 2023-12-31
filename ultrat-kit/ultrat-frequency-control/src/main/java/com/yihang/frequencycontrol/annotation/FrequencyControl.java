@@ -1,6 +1,6 @@
 package com.yihang.frequencycontrol.annotation;
 
-import com.yihang.ultrat.constant.FrequencyControlConstants;
+import com.yihang.ultrat.common.FrequencyControlConstants;
 
 import java.lang.annotation.*;
 

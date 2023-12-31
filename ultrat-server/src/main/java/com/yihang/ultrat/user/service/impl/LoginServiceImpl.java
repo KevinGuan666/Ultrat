@@ -1,6 +1,6 @@
 package com.yihang.ultrat.user.service.impl;
 
-import com.yihang.ultrat.constant.utils.JwtUtils;
+import com.yihang.ultrat.common.utils.JwtUtils;
 import com.yihang.ultrat.user.service.LoginService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

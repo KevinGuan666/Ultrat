@@ -1,7 +1,7 @@
 package com.yihang.ultrat.user.controller;
 
 
-import com.yihang.ultrat.constant.utils.RequestHolder;
+import com.yihang.ultrat.common.utils.RequestHolder;
 import com.yihang.ultrat.domain.AnswerBody;
 import com.yihang.ultrat.user.service.UserService;
 import com.yihang.ultrat.user.vo.response.UserInfoResp;

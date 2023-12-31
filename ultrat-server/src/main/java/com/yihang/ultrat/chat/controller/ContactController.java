@@ -1,7 +1,7 @@
 package com.yihang.ultrat.chat.controller;
 
 
-import com.yihang.ultrat.constant.utils.RequestHolder;
+import com.yihang.ultrat.common.utils.RequestHolder;
 import com.yihang.ultrat.domain.AnswerBody;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

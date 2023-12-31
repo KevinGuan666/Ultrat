@@ -1,6 +1,6 @@
 package com.yihang.ultrat.sensitive;
 
-import com.yihang.ultrat.constant.IWordFactory;
+import com.yihang.ultrat.common.IWordFactory;
 
 import java.util.List;
 

@@ -1,8 +1,8 @@
 package com.yihang.ultrat.sensitive;
 
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
-import com.yihang.ultrat.constant.algorithm.ac.ACTrie;
-import com.yihang.ultrat.constant.algorithm.ac.MatchResult;
+import com.yihang.ultrat.common.algorithm.ac.ACTrie;
+import com.yihang.ultrat.common.algorithm.ac.MatchResult;
 
 
 import java.util.List;

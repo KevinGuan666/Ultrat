@@ -2,7 +2,7 @@ package com.yihang.ultrat.user.dao;
 
 import cn.hutool.core.collection.CollectionUtil;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.yihang.ultrat.constant.domain.enums.NormalStatusEnum;
+import com.yihang.ultrat.common.domain.enums.NormalStatusEnum;
 import com.yihang.ultrat.user.domain.entity.User;
 import com.yihang.ultrat.user.domain.enums.UserActiveStatusEnum;
 import com.yihang.ultrat.user.mapper.UserMapper;
